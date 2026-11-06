@@ -1,0 +1,13 @@
+{
+  "tool": "built-in image_gen",
+  "selected_family": "B · 石墨薄荷",
+  "reference": "fast-series-b-reference.png",
+  "output": "../../public/logo-fasttime.png",
+  "prompt": "Use case: background-extraction / logo-brand. Edit target: the supplied Fast-series B reference board. Produce ONLY the LEFTMOST FastTime icon as a standalone production PNG asset on a square canvas. Preserve its approved design faithfully: a very dark graphite rounded-square tile, a bold luminous mint-green circular clock ring, two round-ended clock hands pointing to twelve and approximately four o'clock, and the single small diagonal cut in the ring at approximately 1:30. Keep the same proportions, corner radius, stroke thickness and color relationship as the first icon in the reference. The tile should fill almost all of the square output with only a small even margin; outside the rounded tile corners must be genuinely transparent alpha, NOT white or a checkerboard. Remove the white presentation board, the FastTime caption, and the other two icons entirely. Do not add text, initials, numbers, ticks, gradients, shadows, texture, reflections, or new details. Crisp flat vector-like raster edges and strong small-size readability; front-facing, centered, no perspective. This is the final FastTime app icon belonging to the exact same approved family, not a new design concept.",
+  "source_master": "fasttime-logo-master.png",
+  "production_dimensions": [
+    256,
+    256
+  ],
+  "post_processing": "等比例缩小，保留 PNG 透明通道（sips -Z 256）"
+}
